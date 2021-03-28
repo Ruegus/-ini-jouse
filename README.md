@@ -10,3 +10,5 @@ You should structure your application as a set of requestor functions that each 
 Parseq is in the Public Domain.
 
 [parseq.js](https://github.com/douglascrockford/parseq/blob/master/parseq.js) is a module that exports a parseq object that contains five factory functions.
+
+### Factory
