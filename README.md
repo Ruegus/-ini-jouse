@@ -14,3 +14,5 @@ Parseq is in the Public Domain.
 ### Factory
 
 A factory function is any function that returns a requestor function. Parseq provides these factory functions:
+
+    parseq.fallback(
