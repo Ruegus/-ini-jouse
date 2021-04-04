@@ -18,3 +18,4 @@ A factory function is any function that returns a requestor function. Parseq pro
     parseq.fallback(
         requestor_array,
         time_limit
+    )
