@@ -22,3 +22,4 @@ A factory function is any function that returns a requestor function. Parseq pro
 
     parseq.parallel(
         required_array,
+        optional_array,
