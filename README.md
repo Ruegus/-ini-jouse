@@ -25,3 +25,4 @@ A factory function is any function that returns a requestor function. Parseq pro
         optional_array,
         time_limit,
         time_option,
+        throttle
