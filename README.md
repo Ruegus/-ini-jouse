@@ -30,3 +30,5 @@ A factory function is any function that returns a requestor function. Parseq pro
 
     parseq.parallel_object(
         required_object,
+        optional_object,
+        time_limit,
