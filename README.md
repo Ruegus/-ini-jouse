@@ -40,3 +40,4 @@ A factory function is any function that returns a requestor function. Parseq pro
         requestor_array,
         time_limit,
         throttle
+    )
