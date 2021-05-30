@@ -38,3 +38,4 @@ A factory function is any function that returns a requestor function. Parseq pro
 
     parseq.race(
         requestor_array,
+        time_limit,
