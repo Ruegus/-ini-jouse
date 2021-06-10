@@ -45,3 +45,4 @@ A factory function is any function that returns a requestor function. Parseq pro
     parseq.sequence(
         requestor_array,
         time_limit
+    )
