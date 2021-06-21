@@ -52,3 +52,5 @@ Each of these factories (except for `parallel_object`) takes an array of request
 Each of these factory functions returns a requestor function. A factory function may throw an exception if it finds problems in its parameters.
 
 ### Requestor
+
+A requestor function is any function that takes a callback and a value.
