@@ -54,3 +54,5 @@ Each of these factory functions returns a requestor function. A factory function
 ### Requestor
 
 A requestor function is any function that takes a callback and a value.
+
+    my_little_requestor(callback, value)
