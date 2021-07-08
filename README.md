@@ -60,3 +60,5 @@ A requestor function is any function that takes a callback and a value.
 A requestor will do some work or send a message to another process or system. When the work is done, the requestor signals the result by passing a value to its callback. The callback could be called in a future turn, so the requestor does not need to block, nor should it ever block.
 
 The `value` may be of any type, including objects, arrays, and `undefined`.
+
+A requestor will pass its `value` parameter to any requestors that it starts. A sequence will pass the `value` parameter to its first requestor. It will then pass the result of the previous requestor to the next requestor.
