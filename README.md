@@ -62,3 +62,5 @@ A requestor will do some work or send a message to another process or system. Wh
 The `value` may be of any type, including objects, arrays, and `undefined`.
 
 A requestor will pass its `value` parameter to any requestors that it starts. A sequence will pass the `value` parameter to its first requestor. It will then pass the result of the previous requestor to the next requestor.
+
+A requestor should not throw an exception. It should communicate all failures through its callback.
