@@ -68,3 +68,5 @@ A requestor should not throw an exception. It should communicate all failures th
 ### Callback
 
 A callback function takes two arguments: `value` and `reason`.
+
+    my_little_callback(value, reason)
