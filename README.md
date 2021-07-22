@@ -66,3 +66,5 @@ A requestor will pass its `value` parameter to any requestors that it starts. A 
 A requestor should not throw an exception. It should communicate all failures through its callback.
 
 ### Callback
+
+A callback function takes two arguments: `value` and `reason`.
