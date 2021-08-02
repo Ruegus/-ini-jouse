@@ -76,3 +76,5 @@ If `value` is `undefined`, then failure is being signalled. `reason` may contain
 ### Cancel
 
 A requestor function may return a cancel function. A cancel function takes a reason argument that might be propagated as the `reason` of some callback.
+
+    my_little_cancel(reason)
