@@ -74,3 +74,5 @@ A callback function takes two arguments: `value` and `reason`.
 If `value` is `undefined`, then failure is being signalled. `reason` may contain information explaining the failure. If `value` is not `undefined`, then success is being signalled and `value` contains the result.
 
 ### Cancel
+
+A requestor function may return a cancel function. A cancel function takes a reason argument that might be propagated as the `reason` of some callback.
