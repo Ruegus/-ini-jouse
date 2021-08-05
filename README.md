@@ -78,3 +78,5 @@ If `value` is `undefined`, then failure is being signalled. `reason` may contain
 A requestor function may return a cancel function. A cancel function takes a reason argument that might be propagated as the `reason` of some callback.
 
     my_little_cancel(reason)
+
+A cancel function attempts to stop the operation of the requestor. If a program decides that it no longer needs the result of a requestor, it can call the cancel function that the requestor returned. This is not an undo operation. It is just a way of stopping unneeded work. It is not guaranteed to stop the work.
