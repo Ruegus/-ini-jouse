@@ -82,3 +82,5 @@ A requestor function may return a cancel function. A cancel function takes a rea
 A cancel function attempts to stop the operation of the requestor. If a program decides that it no longer needs the result of a requestor, it can call the cancel function that the requestor returned. This is not an undo operation. It is just a way of stopping unneeded work. It is not guaranteed to stop the work.
 
 ### Time Limit
+
+All of the factories can take a `time_limit` expressed in milliseconds. The requestor that the factory returns will fail if it can not finish its work in the specified time. If `time_limit` is `0` or `undefined`, then there will be no time limit.
