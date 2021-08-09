@@ -84,3 +84,5 @@ A cancel function attempts to stop the operation of the requestor. If a program 
 ### Time Limit
 
 All of the factories can take a `time_limit` expressed in milliseconds. The requestor that the factory returns will fail if it can not finish its work in the specified time. If `time_limit` is `0` or `undefined`, then there will be no time limit.
+
+Three of the factories (`parallel`, `parallel_object`, and `race`) can take a `throttle` argument. Normally these factories want to start all of their requestors at once. Unfortunately, that can cause some incompetent systems to fail due to resource exhaustion or other limitations. The `throttle` puts an upper limit on the number of requestors that can be running at once. Please be aware that some of your requestors might not start running until others have finished. You need to factor that delay into your time limits.
