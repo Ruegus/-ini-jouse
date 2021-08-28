@@ -92,3 +92,5 @@ Three of the factories (`parallel`, `parallel_object`, and `race`) can take a `t
 
     parseq.fallback(
         requestor_array,
+        time_limit
+    )
