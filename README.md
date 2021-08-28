@@ -89,3 +89,5 @@ Three of the factories (`parallel`, `parallel_object`, and `race`) can take a `t
 
 
 ## Fallback
+
+    parseq.fallback(
