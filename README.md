@@ -100,3 +100,5 @@ Three of the factories (`parallel`, `parallel_object`, and `race`) can take a `t
 If `time_limit` is `0` or `undefined`, then there is no time limit. If `time_limit` is greater than `0`, then a time limit is imposed. The fallback requestor will fail if it can not finish in time.
 
 The fallback requestor will return a cancel function that can be called when the result is no longer needed.
+
+## Parallel
