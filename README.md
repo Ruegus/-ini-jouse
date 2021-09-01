@@ -108,3 +108,5 @@ The fallback requestor will return a cancel function that can be called when the
         optional_array,
         time_limit,
         time_option,
+        throttle
+    )
