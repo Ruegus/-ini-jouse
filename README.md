@@ -96,3 +96,5 @@ Three of the factories (`parallel`, `parallel_object`, and `race`) can take a `t
     )
 
 `parseq.fallback` returns a requestor function. When the requestor is called, it will call the first requestor in `requestor_array`. If that is ultimately successful, its value will be passed to the callback. But if that requestor fails, the next requestor will be called, and so on. If none of the requestors is successful, then the fallback fails. If any succeeds, then the fallback succeeds.
+
+If `time_limit` is `0` or `undefined`, then there is no time limit. If `time_limit` is greater than `0`, then a time limit is imposed. The fallback requestor will fail if it can not finish in time.
