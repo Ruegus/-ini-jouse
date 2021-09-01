@@ -106,3 +106,4 @@ The fallback requestor will return a cancel function that can be called when the
     parseq.parallel(
         required_array,
         optional_array,
+        time_limit,
