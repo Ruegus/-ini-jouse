@@ -110,3 +110,5 @@ The fallback requestor will return a cancel function that can be called when the
         time_option,
         throttle
     )
+
+`parseq.parallel` returns a requestor that processes many requestors in parallel, producing an array of all of the successful results. It does not add parallelism to JavaScript. It makes it possible for JavaScript to exploit the natural parallelism of the universe.
