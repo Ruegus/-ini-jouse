@@ -120,3 +120,5 @@ The result maps the success values of the required requestors and optional reque
 If the `time_limit` argument is supplied, then a time limit is imposed. The result must be complete before the time expires.
 
 If there is no time limit, and if there are required requestors, then the parallel operation is finished when all of the required requestors are done. All unfinished optional requestors will be cancelled.
+
+The `time_option` parameter works when there are both required requestors and optional requestors.  It can have one of three values:
