@@ -118,3 +118,5 @@ The fallback requestor will return a cancel function that can be called when the
 The result maps the success values of the required requestors and optional requestors into a single array. The value produced by the first element of the requestors array provides the first element of the result.
 
 If the `time_limit` argument is supplied, then a time limit is imposed. The result must be complete before the time expires.
+
+If there is no time limit, and if there are required requestors, then the parallel operation is finished when all of the required requestors are done. All unfinished optional requestors will be cancelled.
