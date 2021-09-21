@@ -124,3 +124,4 @@ If there is no time limit, and if there are required requestors, then the parall
 The `time_option` parameter works when there are both required requestors and optional requestors.  It can have one of three values:
 
 |`time_option` | Effect
+-------- | ------
