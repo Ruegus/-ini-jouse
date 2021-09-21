@@ -125,3 +125,6 @@ The `time_option` parameter works when there are both required requestors and op
 
 |`time_option` | Effect
 -------- | ------
+|`undefined` | The optional requestors must finish before the required requestors finish. The required requestors must finish before the time limit, if there is one.
+|`true` | The required requestors and the optional requestors must all finish before the time limit.
+|`false` | The required requestors have no time limit. The optional requestors must finish before the required finish and the time limit, whichever is later.
