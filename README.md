@@ -134,3 +134,5 @@ If `throttle` is not `undefined` or `0`, then there will be a limit on the numbe
 ## Parallel Object
 
     parseq.parallel_object(
+        required_object,
+        optional_object,
