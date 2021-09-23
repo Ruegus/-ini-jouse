@@ -132,3 +132,5 @@ The `time_option` parameter works when there are both required requestors and op
 If `throttle` is not `undefined` or `0`, then there will be a limit on the number of requestors that will be active at a time.
 
 ## Parallel Object
+
+    parseq.parallel_object(
