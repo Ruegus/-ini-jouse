@@ -138,3 +138,5 @@ If `throttle` is not `undefined` or `0`, then there will be a limit on the numbe
         optional_object,
         time_limit,
         time_option,
+        throttle
+    )
