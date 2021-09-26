@@ -140,3 +140,5 @@ If `throttle` is not `undefined` or `0`, then there will be a limit on the numbe
         time_option,
         throttle
     )
+
+`parseq.parallel_object` is like `parseq.parallel` except that it operates on objects of requestors instead of on arrays of requestors. If successful, it will deliver an object of results. A key from an object of requestors will be used as the key for the requestor's result.
