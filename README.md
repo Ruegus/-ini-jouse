@@ -158,3 +158,5 @@ If the `time_limit` argument is supplied, then if no requestor has been successf
 If `throttle` is not `undefined` or `0`, then there will be a limit on the number of requestors that will be active at a time.
 
 ## Sequence
+
+    parseq.sequence(
