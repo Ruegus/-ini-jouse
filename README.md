@@ -156,3 +156,5 @@ If `throttle` is not `undefined` or `0`, then there will be a limit on the numbe
 If the `time_limit` argument is supplied, then if no requestor has been successful in the allotted time, then the race fails, and all pending requestors are cancelled.
 
 If `throttle` is not `undefined` or `0`, then there will be a limit on the number of requestors that will be active at a time.
+
+## Sequence
