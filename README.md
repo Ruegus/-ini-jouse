@@ -161,3 +161,5 @@ If `throttle` is not `undefined` or `0`, then there will be a limit on the numbe
 
     parseq.sequence(
         requestor_array,
+        time_limit
+    )
