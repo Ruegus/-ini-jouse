@@ -171,3 +171,6 @@ If the optional `time_limit` argument is supplied, then if all of the requestors
 ## Demo
 
 A demonstration of parseq is provided in three files:
+
+- [demo.html](https://github.com/douglascrockford/parseq/blob/master/demo.html)
+- [demo.css](https://github.com/douglascrockford/parseq/blob/master/demo.css)
