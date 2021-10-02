@@ -174,3 +174,4 @@ A demonstration of parseq is provided in three files:
 
 - [demo.html](https://github.com/douglascrockford/parseq/blob/master/demo.html)
 - [demo.css](https://github.com/douglascrockford/parseq/blob/master/demo.css)
+- [demo.js](https://github.com/douglascrockford/parseq/blob/master/demo.js)
