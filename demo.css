@@ -23,3 +23,6 @@ h1 {
 #reset:hover {
     background-color: beige;
 }
+
+#reset:active {
+    background-color: mistyrose;
