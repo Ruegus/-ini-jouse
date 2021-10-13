@@ -37,3 +37,6 @@ fieldset {
     margin: 0.25em;
     text-align: center;
 }
+
+legend {
+    background-color: snow;
