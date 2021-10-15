@@ -47,3 +47,5 @@ legend {
     padding-left: 0.5em;
     padding-right: 0.5em;
 }
+
+fieldset:hover, legend:hover {
