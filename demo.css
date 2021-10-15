@@ -49,3 +49,5 @@ legend {
 }
 
 fieldset:hover, legend:hover {
+    background-color: papayawhip;
+}
