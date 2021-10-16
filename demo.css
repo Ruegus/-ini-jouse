@@ -51,3 +51,6 @@ legend {
 fieldset:hover, legend:hover {
     background-color: papayawhip;
 }
+
+input {
+    border: 2px solid black;
