@@ -56,3 +56,6 @@ input {
     border: 2px solid black;
     cursor: pointer;
 }
+
+input[value="success"]:hover {
+    background-color: lightgreen;
