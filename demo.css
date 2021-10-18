@@ -61,3 +61,5 @@ input[value="success"]:hover {
     background-color: lightgreen;
     border: 2px solid green;
 }
+
+input[value="failure"]:hover {
