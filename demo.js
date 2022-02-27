@@ -6,3 +6,5 @@
 // final result, and a parseq routine written as an annotated nested array.
 
 // This interacts with the browser using Plain Old DOM.
+
+/*jslint
