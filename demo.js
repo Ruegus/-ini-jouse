@@ -10,3 +10,5 @@
 /*jslint
     browser
 */
+
+/*property
