@@ -16,3 +16,5 @@
     createTextNode, fallback, getElementById, location, onclick, parallel,
     race, reload, sequence, stringify, style, type, value
 */
+
+import parseq from "./parseq.js";
