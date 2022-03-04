@@ -21,3 +21,6 @@ import parseq from "./parseq.js";
 
 document.getElementById("reset").onclick = function (ignore) {
     window.location.reload(true);
+};
+
+function widget(name) {
