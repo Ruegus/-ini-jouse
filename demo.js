@@ -34,3 +34,4 @@ function widget(name) {
         let fieldset = document.createElement("fieldset");
         let legend = document.createElement("legend");
         let success = document.createElement("input");
+        let failure = document.createElement("input");
