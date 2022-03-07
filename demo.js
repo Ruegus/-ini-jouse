@@ -28,3 +28,7 @@ function widget(name) {
         let result = (
             value !== undefined
             ? value + ">" + name
+            : name
+        );
+        let demo = document.getElementById("demo");
+        let fieldset = document.createElement("fieldset");
