@@ -32,3 +32,5 @@ function widget(name) {
         );
         let demo = document.getElementById("demo");
         let fieldset = document.createElement("fieldset");
+        let legend = document.createElement("legend");
+        let success = document.createElement("input");
