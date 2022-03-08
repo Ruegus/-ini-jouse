@@ -39,3 +39,4 @@ function widget(name) {
         fieldset.appendChild(success);
         fieldset.appendChild(failure);
         legend.appendChild(document.createTextNode(name));
+        success.type = "button";
