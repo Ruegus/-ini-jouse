@@ -37,3 +37,5 @@ function widget(name) {
         let failure = document.createElement("input");
         fieldset.appendChild(legend);
         fieldset.appendChild(success);
+        fieldset.appendChild(failure);
+        legend.appendChild(document.createTextNode(name));
