@@ -48,3 +48,4 @@ function widget(name) {
                 return callback(result);
             },
             false
+        );
