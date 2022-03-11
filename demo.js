@@ -49,3 +49,5 @@ function widget(name) {
             },
             false
         );
+        failure.type = "button";
+        failure.value = "failure";
