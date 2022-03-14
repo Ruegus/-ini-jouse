@@ -64,3 +64,4 @@ function widget(name) {
             fieldset.style.backgroundColor = "darkgray";
         };
     };
+}
