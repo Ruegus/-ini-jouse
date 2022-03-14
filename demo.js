@@ -60,3 +60,4 @@ function widget(name) {
             false
         );
         demo.appendChild(fieldset);
+        return function widget_cancel() {
