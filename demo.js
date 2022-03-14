@@ -63,3 +63,4 @@ function widget(name) {
         return function widget_cancel() {
             fieldset.style.backgroundColor = "darkgray";
         };
+    };
