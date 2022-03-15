@@ -69,3 +69,4 @@ function widget(name) {
 function show(value, reason) {
     let body;
     let color;
+    let demo = document.getElementById("demo");
