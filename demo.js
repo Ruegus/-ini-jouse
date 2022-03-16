@@ -75,3 +75,4 @@ function show(value, reason) {
     let result;
     let title;
     if (value !== undefined) {
+        result = JSON.stringify(value);
