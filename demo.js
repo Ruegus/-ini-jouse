@@ -72,3 +72,5 @@ function show(value, reason) {
     let demo = document.getElementById("demo");
     let fieldset = document.createElement("fieldset");
     let legend = document.createElement("legend");
+    let result;
+    let title;
