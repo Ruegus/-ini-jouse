@@ -85,3 +85,5 @@ function show(value, reason) {
         color = "pink";
         body = "mistyrose";
     }
+    fieldset.appendChild(legend);
+    legend.appendChild(document.createTextNode(title));
