@@ -80,3 +80,6 @@ function show(value, reason) {
         color = "lightgreen";
         body = "mintcream";
     } else {
+        result = JSON.stringify(reason);
+        title = "failure";
+        color = "pink";
