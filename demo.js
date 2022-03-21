@@ -90,3 +90,6 @@ function show(value, reason) {
     fieldset.appendChild(document.createTextNode(result));
     fieldset.style.backgroundColor = color;
     legend.style.backgroundColor = color;
+    document.body.style.backgroundColor = body;
+    demo.appendChild(fieldset);
+}
