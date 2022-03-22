@@ -93,3 +93,5 @@ function show(value, reason) {
     document.body.style.backgroundColor = body;
     demo.appendChild(fieldset);
 }
+
+parseq.parallel(
