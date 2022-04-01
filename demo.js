@@ -139,3 +139,4 @@ parseq.parallel(
             widget("Opt Fall V0"),
             widget("Opt Fall V1"),
             widget("Opt Fall V2")
+        ])
