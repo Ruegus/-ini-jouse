@@ -7,3 +7,5 @@
 
 // You can access the parseq object in your module by importing it.
 //      import parseq from "./parseq.js";
+
+/*jslint node */
