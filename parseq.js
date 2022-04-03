@@ -11,3 +11,5 @@
 /*jslint node */
 
 /*property
+    concat, create, evidence, fallback, forEach, freeze, isArray, isSafeInteger,
+    keys, length, min, parallel, parallel_object, pop, push, race, sequence,
