@@ -9,3 +9,5 @@
 //      import parseq from "./parseq.js";
 
 /*jslint node */
+
+/*property
