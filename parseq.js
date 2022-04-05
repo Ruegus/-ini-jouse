@@ -15,3 +15,5 @@
     keys, length, min, parallel, parallel_object, pop, push, race, sequence,
     some
 */
+
+function make_reason(factory_name, excuse, evidence) {
