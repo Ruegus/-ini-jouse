@@ -22,3 +22,5 @@ function make_reason(factory_name, excuse, evidence) {
 // They are made from Error objects.
 
     const reason = new Error("parseq." + factory_name + (
+        excuse === undefined
+        ? ""
