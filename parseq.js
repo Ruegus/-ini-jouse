@@ -20,3 +20,5 @@ function make_reason(factory_name, excuse, evidence) {
 
 // Make a reason object. These are used for exceptions and cancellations.
 // They are made from Error objects.
+
+    const reason = new Error("parseq." + factory_name + (
