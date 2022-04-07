@@ -24,3 +24,5 @@ function make_reason(factory_name, excuse, evidence) {
     const reason = new Error("parseq." + factory_name + (
         excuse === undefined
         ? ""
+        : ": " + excuse
+    ));
