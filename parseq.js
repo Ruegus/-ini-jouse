@@ -29,3 +29,6 @@ function make_reason(factory_name, excuse, evidence) {
     reason.evidence = evidence;
     return reason;
 }
+
+function get_array_length(array, factory_name) {
+    if (Array.isArray(array)) {
