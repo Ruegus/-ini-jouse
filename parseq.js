@@ -26,3 +26,6 @@ function make_reason(factory_name, excuse, evidence) {
         ? ""
         : ": " + excuse
     ));
+    reason.evidence = evidence;
+    return reason;
+}
