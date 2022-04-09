@@ -32,3 +32,4 @@ function make_reason(factory_name, excuse, evidence) {
 
 function get_array_length(array, factory_name) {
     if (Array.isArray(array)) {
+        return array.length;
