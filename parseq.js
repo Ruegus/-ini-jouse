@@ -36,3 +36,5 @@ function get_array_length(array, factory_name) {
     }
     if (array === undefined) {
         return 0;
+    }
+    throw make_reason(factory_name, "Not an array.", array);
