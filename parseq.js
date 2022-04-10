@@ -34,3 +34,5 @@ function get_array_length(array, factory_name) {
     if (Array.isArray(array)) {
         return array.length;
     }
+    if (array === undefined) {
+        return 0;
