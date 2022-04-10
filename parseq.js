@@ -39,3 +39,5 @@ function get_array_length(array, factory_name) {
     }
     throw make_reason(factory_name, "Not an array.", array);
 }
+
+function check_callback(callback, factory_name) {
