@@ -41,3 +41,4 @@ function get_array_length(array, factory_name) {
 }
 
 function check_callback(callback, factory_name) {
+    if (typeof callback !== "function" || callback.length !== 2) {
