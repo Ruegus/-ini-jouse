@@ -44,3 +44,4 @@ function check_callback(callback, factory_name) {
     if (typeof callback !== "function" || callback.length !== 2) {
         throw make_reason(factory_name, "Not a callback function.", callback);
     }
+}
