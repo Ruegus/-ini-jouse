@@ -45,3 +45,5 @@ function check_callback(callback, factory_name) {
         throw make_reason(factory_name, "Not a callback function.", callback);
     }
 }
+
+function check_requestors(requestor_array, factory_name) {
