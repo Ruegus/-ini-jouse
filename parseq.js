@@ -49,3 +49,4 @@ function check_callback(callback, factory_name) {
 function check_requestors(requestor_array, factory_name) {
 
 // A requestor array contains only requestors. A requestor is a function that
+// takes wun or two arguments: 'callback' and optionally 'initial_value'.
