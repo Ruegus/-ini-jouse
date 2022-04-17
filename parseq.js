@@ -54,3 +54,5 @@ function check_requestors(requestor_array, factory_name) {
     if (requestor_array.some(function (requestor) {
         return (
             typeof requestor !== "function"
+            || requestor.length < 1
+            || requestor.length > 2
