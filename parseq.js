@@ -58,3 +58,4 @@ function check_requestors(requestor_array, factory_name) {
             || requestor.length > 2
         );
     })) {
+        throw make_reason(
