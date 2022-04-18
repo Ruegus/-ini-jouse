@@ -57,3 +57,4 @@ function check_requestors(requestor_array, factory_name) {
             || requestor.length < 1
             || requestor.length > 2
         );
+    })) {
