@@ -60,3 +60,6 @@ function check_requestors(requestor_array, factory_name) {
     })) {
         throw make_reason(
             factory_name,
+            "Bad requestors array.",
+            requestor_array
+        );
