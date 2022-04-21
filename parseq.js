@@ -68,3 +68,6 @@ function check_requestors(requestor_array, factory_name) {
 
 function run(
     factory_name,
+    requestor_array,
+    initial_value,
+    action,
