@@ -73,3 +73,4 @@ function run(
     action,
     timeout,
     time_limit,
+    throttle = 0
