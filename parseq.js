@@ -78,3 +78,4 @@ function run(
 
 // The 'run' function does the work that is common to all of the Parseq
 // factories. It takes the name of the factory, an array of requestors, an
+// initial value, an action callback, a timeout callback, a time limit in
