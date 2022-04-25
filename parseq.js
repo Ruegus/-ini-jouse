@@ -80,3 +80,6 @@ function run(
 // factories. It takes the name of the factory, an array of requestors, an
 // initial value, an action callback, a timeout callback, a time limit in
 // milliseconds, and a throttle.
+
+// If all goes well, we call all of the requestor functions in the array. Each
+// of them  might return a cancel function that is kept in the 'cancel_array'.
