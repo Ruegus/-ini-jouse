@@ -83,3 +83,5 @@ function run(
 
 // If all goes well, we call all of the requestor functions in the array. Each
 // of them  might return a cancel function that is kept in the 'cancel_array'.
+
+    let cancel_array = new Array(requestor_array.length);
