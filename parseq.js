@@ -87,3 +87,5 @@ function run(
     let cancel_array = new Array(requestor_array.length);
     let next_number = 0;
     let timer_id;
+
+// We need 'cancel' and 'start_requestor' functions.
