@@ -85,3 +85,5 @@ function run(
 // of them  might return a cancel function that is kept in the 'cancel_array'.
 
     let cancel_array = new Array(requestor_array.length);
+    let next_number = 0;
+    let timer_id;
