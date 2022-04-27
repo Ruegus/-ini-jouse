@@ -89,3 +89,5 @@ function run(
     let timer_id;
 
 // We need 'cancel' and 'start_requestor' functions.
+
+    function cancel(reason = make_reason(factory_name, "Cancel.")) {
