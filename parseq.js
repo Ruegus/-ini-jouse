@@ -91,3 +91,5 @@ function run(
 // We need 'cancel' and 'start_requestor' functions.
 
     function cancel(reason = make_reason(factory_name, "Cancel.")) {
+
+// Stop all unfinished business. This can be called when a requestor fails.
