@@ -94,3 +94,4 @@ function run(
 
 // Stop all unfinished business. This can be called when a requestor fails.
 // It can also be called when a requestor succeeds, such as 'race' stopping
+// its losers, or 'parallel' stopping the unfinished optionals.
