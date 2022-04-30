@@ -99,3 +99,4 @@ function run(
 // If a timer is running, stop it.
 
         if (timer_id !== undefined) {
+            clearTimeout(timer_id);
