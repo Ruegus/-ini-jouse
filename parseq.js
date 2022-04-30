@@ -97,3 +97,5 @@ function run(
 // its losers, or 'parallel' stopping the unfinished optionals.
 
 // If a timer is running, stop it.
+
+        if (timer_id !== undefined) {
