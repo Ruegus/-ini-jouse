@@ -100,3 +100,7 @@ function run(
 
         if (timer_id !== undefined) {
             clearTimeout(timer_id);
+            timer_id = undefined;
+        }
+
+// If anything is still going, cancel it.
