@@ -104,3 +104,6 @@ function run(
         }
 
 // If anything is still going, cancel it.
+
+        if (cancel_array !== undefined) {
+            cancel_array.forEach(function (cancel) {
