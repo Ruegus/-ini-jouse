@@ -108,3 +108,4 @@ function run(
         if (cancel_array !== undefined) {
             cancel_array.forEach(function (cancel) {
                 try {
+                    if (typeof cancel === "function") {
