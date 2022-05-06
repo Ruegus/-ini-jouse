@@ -110,3 +110,4 @@ function run(
                 try {
                     if (typeof cancel === "function") {
                         return cancel(reason);
+                    }
