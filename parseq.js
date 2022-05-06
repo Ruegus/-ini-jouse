@@ -109,3 +109,4 @@ function run(
             cancel_array.forEach(function (cancel) {
                 try {
                     if (typeof cancel === "function") {
+                        return cancel(reason);
