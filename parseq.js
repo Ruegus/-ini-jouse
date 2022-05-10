@@ -111,3 +111,6 @@ function run(
                     if (typeof cancel === "function") {
                         return cancel(reason);
                     }
+                } catch (ignore) {}
+            });
+            cancel_array = undefined;
