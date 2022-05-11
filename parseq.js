@@ -116,3 +116,5 @@ function run(
             cancel_array = undefined;
         }
     }
+
+    function start_requestor(value) {
