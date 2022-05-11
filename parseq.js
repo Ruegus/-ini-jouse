@@ -115,3 +115,4 @@ function run(
             });
             cancel_array = undefined;
         }
+    }
