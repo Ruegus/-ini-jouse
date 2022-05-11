@@ -114,3 +114,4 @@ function run(
                 } catch (ignore) {}
             });
             cancel_array = undefined;
+        }
