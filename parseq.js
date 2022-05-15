@@ -118,3 +118,7 @@ function run(
     }
 
     function start_requestor(value) {
+
+// The 'start_requestor' function is not recursive, exactly. It does not
+// directly call itself, but it does return a function that might call
+// 'start_requestor'.
