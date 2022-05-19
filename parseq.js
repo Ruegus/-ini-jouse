@@ -124,3 +124,7 @@ function run(
 // 'start_requestor'.
 
 // Start the execution of a requestor, if there are any still waiting.
+
+        if (
+            cancel_array !== undefined
+            && next_number < requestor_array.length
