@@ -122,3 +122,5 @@ function run(
 // The 'start_requestor' function is not recursive, exactly. It does not
 // directly call itself, but it does return a function that might call
 // 'start_requestor'.
+
+// Start the execution of a requestor, if there are any still waiting.
