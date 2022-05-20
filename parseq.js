@@ -128,3 +128,6 @@ function run(
         if (
             cancel_array !== undefined
             && next_number < requestor_array.length
+        ) {
+
+// Each requestor has a number.
