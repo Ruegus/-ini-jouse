@@ -140,3 +140,4 @@ function run(
 
             const requestor = requestor_array[number];
             try {
+                cancel_array[number] = requestor(
