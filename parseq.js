@@ -141,3 +141,4 @@ function run(
             const requestor = requestor_array[number];
             try {
                 cancel_array[number] = requestor(
+                    function start_requestor_callback(value, reason) {
