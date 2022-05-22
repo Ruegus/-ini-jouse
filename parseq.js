@@ -136,3 +136,7 @@ function run(
             next_number += 1;
 
 // Call the next requestor, passing in a callback function,
+// saving the cancel function that the requestor might return.
+
+            const requestor = requestor_array[number];
+            try {
