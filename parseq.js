@@ -142,3 +142,5 @@ function run(
             try {
                 cancel_array[number] = requestor(
                     function start_requestor_callback(value, reason) {
+
+// This callback function is called by the 'requestor' when it is done.
