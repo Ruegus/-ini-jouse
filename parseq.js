@@ -152,3 +152,5 @@ function run(
                             cancel_array !== undefined
                             && number !== undefined
                         ) {
+
+// We no longer need the cancel associated with this requestor.
