@@ -150,3 +150,5 @@ function run(
 
                         if (
                             cancel_array !== undefined
+                            && number !== undefined
+                        ) {
