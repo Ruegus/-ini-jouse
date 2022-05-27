@@ -149,3 +149,4 @@ function run(
 // limit has expired. This callback function can only be called wunce.
 
                         if (
+                            cancel_array !== undefined
