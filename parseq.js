@@ -156,3 +156,5 @@ function run(
 // We no longer need the cancel associated with this requestor.
 
                             cancel_array[number] = undefined;
+
+// Call the 'action' function to let the requestor know what happened.
