@@ -158,3 +158,5 @@ function run(
                             cancel_array[number] = undefined;
 
 // Call the 'action' function to let the requestor know what happened.
+
+                            action(value, reason, number);
