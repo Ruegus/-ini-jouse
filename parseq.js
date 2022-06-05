@@ -160,3 +160,7 @@ function run(
 // Call the 'action' function to let the requestor know what happened.
 
                             action(value, reason, number);
+
+// Clear 'number' so this callback can not be used again.
+
+                            number = undefined;
