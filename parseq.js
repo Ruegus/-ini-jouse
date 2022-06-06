@@ -167,3 +167,4 @@ function run(
 
 // If there are any requestors that are still waiting to start, then
 // start the next wun. If the next requestor is in a sequence, then it
+// gets the most recent 'value'. The others get the 'initial_value'.
