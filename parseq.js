@@ -173,3 +173,5 @@ function run(
                                 factory_name === "sequence"
                                 ? value
                                 : initial_value
+                            ));
+                        }
