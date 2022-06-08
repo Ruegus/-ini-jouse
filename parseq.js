@@ -172,3 +172,4 @@ function run(
                             setTimeout(start_requestor, 0, (
                                 factory_name === "sequence"
                                 ? value
+                                : initial_value
