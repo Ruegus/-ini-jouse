@@ -177,3 +177,6 @@ function run(
                         }
                     },
                     value
+                );
+
+// Requestors are required to report their failure thru the callback.
