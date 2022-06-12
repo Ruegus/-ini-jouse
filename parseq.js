@@ -186,3 +186,4 @@ function run(
             } catch (exception) {
                 action(undefined, exception, number);
                 number = undefined;
+                start_requestor(value);
