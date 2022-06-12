@@ -184,3 +184,5 @@ function run(
 // it is treated as a failure.
 
             } catch (exception) {
+                action(undefined, exception, number);
+                number = undefined;
