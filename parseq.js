@@ -193,3 +193,5 @@ function run(
 
 // With the 'cancel' and the 'start_requestor' functions in hand,
 // we can now get to work.
+
+// If a timeout was requested, start the timer.
