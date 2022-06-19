@@ -195,3 +195,7 @@ function run(
 // we can now get to work.
 
 // If a timeout was requested, start the timer.
+
+    if (time_limit !== undefined) {
+        if (typeof time_limit === "number" && time_limit >= 0) {
+            if (time_limit > 0) {
