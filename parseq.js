@@ -202,3 +202,6 @@ function run(
                 timer_id = setTimeout(timeout, time_limit);
             }
         } else {
+            throw make_reason(factory_name, "Bad time limit.", time_limit);
+        }
+    }
