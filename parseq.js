@@ -201,3 +201,4 @@ function run(
             if (time_limit > 0) {
                 timer_id = setTimeout(timeout, time_limit);
             }
+        } else {
