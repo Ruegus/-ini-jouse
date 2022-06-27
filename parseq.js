@@ -205,3 +205,5 @@ function run(
             throw make_reason(factory_name, "Bad time limit.", time_limit);
         }
     }
+
+// If we are doing 'race' or 'parallel', we want to start all of the requestors
