@@ -213,3 +213,4 @@ function run(
 
 // The 'sequence' and 'fallback' factories set 'throttle' to 1 because they
 // process wun at a time and always start another requestor when the
+// previous requestor finishes.
