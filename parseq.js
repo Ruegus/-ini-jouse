@@ -210,3 +210,6 @@ function run(
 // at wunce. However, if there is a 'throttle' in place then we start as many
 // as the 'throttle' allows, and then as each requestor finishes, another is
 // started.
+
+// The 'sequence' and 'fallback' factories set 'throttle' to 1 because they
+// process wun at a time and always start another requestor when the
