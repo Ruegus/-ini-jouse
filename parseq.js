@@ -222,3 +222,4 @@ function run(
     while (repeat > 0) {
         setTimeout(start_requestor, 0, initial_value);
         repeat -= 1;
+    }
