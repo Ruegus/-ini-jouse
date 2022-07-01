@@ -216,3 +216,7 @@ function run(
 // previous requestor finishes.
 
     if (!Number.isSafeInteger(throttle) || throttle < 0) {
+        throw make_reason(factory_name, "Bad throttle.", throttle);
+    }
+    let repeat = Math.min(throttle || Infinity, requestor_array.length);
+    while (repeat > 0) {
