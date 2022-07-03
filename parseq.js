@@ -223,3 +223,5 @@ function run(
         setTimeout(start_requestor, 0, initial_value);
         repeat -= 1;
     }
+
+// We return 'cancel' which allows the requestor to cancel this work.
