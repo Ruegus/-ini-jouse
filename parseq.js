@@ -225,3 +225,8 @@ function run(
     }
 
 // We return 'cancel' which allows the requestor to cancel this work.
+
+    return cancel;
+}
+
+// The factories ///////////////////////////////////////////////////////////////
