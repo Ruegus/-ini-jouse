@@ -230,3 +230,6 @@ function run(
 }
 
 // The factories ///////////////////////////////////////////////////////////////
+
+function parallel(
+    required_array,
