@@ -233,3 +233,6 @@ function run(
 
 function parallel(
     required_array,
+    optional_array,
+    time_limit,
+    time_option,
