@@ -236,3 +236,6 @@ function parallel(
     optional_array,
     time_limit,
     time_option,
+    throttle,
+    factory_name = "parallel"
+) {
