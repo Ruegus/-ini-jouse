@@ -239,3 +239,5 @@ function parallel(
     throttle,
     factory_name = "parallel"
 ) {
+
+// The parallel factory is the most complex of these factories. It can take
