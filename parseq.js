@@ -243,3 +243,5 @@ function parallel(
 // The parallel factory is the most complex of these factories. It can take
 // a second array of requestors that get a more forgiving failure policy.
 // It returns a requestor that produces an array of values.
+
+    let requestor_array;
