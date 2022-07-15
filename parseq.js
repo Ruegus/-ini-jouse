@@ -245,3 +245,8 @@ function parallel(
 // It returns a requestor that produces an array of values.
 
     let requestor_array;
+
+// There are four cases because 'required_array' and 'optional_array'
+// can both be empty.
+
+    let number_of_required = get_array_length(required_array, factory_name);
