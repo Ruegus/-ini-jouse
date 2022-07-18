@@ -252,3 +252,5 @@ function parallel(
     let number_of_required = get_array_length(required_array, factory_name);
     if (number_of_required === 0) {
         if (get_array_length(optional_array, factory_name) === 0) {
+
+// If both are empty, then 'requestor_array' is empty.
