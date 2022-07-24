@@ -264,3 +264,5 @@ function parallel(
             time_option = true;
         }
     } else {
+
+// If there is only 'required_array', then it is the 'requestor_array'.
