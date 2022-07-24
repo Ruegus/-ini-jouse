@@ -259,3 +259,5 @@ function parallel(
         } else {
 
 // If there is only 'optional_array', then it is the 'requestor_array'.
+
+            requestor_array = optional_array;
