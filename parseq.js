@@ -266,3 +266,6 @@ function parallel(
     } else {
 
 // If there is only 'required_array', then it is the 'requestor_array'.
+
+        if (get_array_length(optional_array, factory_name) === 0) {
+            requestor_array = required_array;
