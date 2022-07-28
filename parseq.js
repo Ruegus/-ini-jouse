@@ -272,3 +272,5 @@ function parallel(
             time_option = undefined;
 
 // If both arrays are provided, we concatenate them together.
+
+        } else {
