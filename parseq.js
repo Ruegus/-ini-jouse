@@ -269,3 +269,6 @@ function parallel(
 
         if (get_array_length(optional_array, factory_name) === 0) {
             requestor_array = required_array;
+            time_option = undefined;
+
+// If both arrays are provided, we concatenate them together.
