@@ -274,3 +274,4 @@ function parallel(
 // If both arrays are provided, we concatenate them together.
 
         } else {
+            requestor_array = required_array.concat(optional_array);
