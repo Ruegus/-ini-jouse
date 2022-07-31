@@ -275,3 +275,5 @@ function parallel(
 
         } else {
             requestor_array = required_array.concat(optional_array);
+            if (time_option !== undefined && typeof time_option !== "boolean") {
+                throw make_reason(
