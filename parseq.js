@@ -282,3 +282,5 @@ function parallel(
                     time_option
                 );
             }
+        }
+    }
