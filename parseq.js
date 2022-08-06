@@ -280,3 +280,5 @@ function parallel(
                     factory_name,
                     "Bad time_option.",
                     time_option
+                );
+            }
