@@ -279,3 +279,4 @@ function parallel(
                 throw make_reason(
                     factory_name,
                     "Bad time_option.",
+                    time_option
