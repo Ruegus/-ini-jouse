@@ -277,3 +277,5 @@ function parallel(
             requestor_array = required_array.concat(optional_array);
             if (time_option !== undefined && typeof time_option !== "boolean") {
                 throw make_reason(
+                    factory_name,
+                    "Bad time_option.",
