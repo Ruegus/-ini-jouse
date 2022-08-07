@@ -286,3 +286,5 @@ function parallel(
     }
 
 // We check the array and return the requestor.
+
+    check_requestors(requestor_array, factory_name);
