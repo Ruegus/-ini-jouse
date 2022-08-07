@@ -284,3 +284,5 @@ function parallel(
             }
         }
     }
+
+// We check the array and return the requestor.
