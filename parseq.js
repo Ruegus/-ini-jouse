@@ -289,3 +289,4 @@ function parallel(
 
     check_requestors(requestor_array, factory_name);
     return function parallel_requestor(callback, initial_value) {
+        check_callback(callback, factory_name);
