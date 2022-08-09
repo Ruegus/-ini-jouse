@@ -288,3 +288,4 @@ function parallel(
 // We check the array and return the requestor.
 
     check_requestors(requestor_array, factory_name);
+    return function parallel_requestor(callback, initial_value) {
