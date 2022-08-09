@@ -290,3 +290,6 @@ function parallel(
     check_requestors(requestor_array, factory_name);
     return function parallel_requestor(callback, initial_value) {
         check_callback(callback, factory_name);
+        let number_of_pending = requestor_array.length;
+        let number_of_pending_required = number_of_required;
+        let results = [];
