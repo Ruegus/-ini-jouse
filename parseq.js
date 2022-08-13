@@ -293,3 +293,4 @@ function parallel(
         let number_of_pending = requestor_array.length;
         let number_of_pending_required = number_of_required;
         let results = [];
+        if (number_of_pending === 0) {
