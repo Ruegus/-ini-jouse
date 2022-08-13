@@ -295,3 +295,4 @@ function parallel(
         let results = [];
         if (number_of_pending === 0) {
             callback(
+                factory_name === "sequence"
