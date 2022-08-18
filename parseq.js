@@ -296,3 +296,4 @@ function parallel(
         if (number_of_pending === 0) {
             callback(
                 factory_name === "sequence"
+                ? initial_value
