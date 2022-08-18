@@ -297,3 +297,4 @@ function parallel(
             callback(
                 factory_name === "sequence"
                 ? initial_value
+                : results
