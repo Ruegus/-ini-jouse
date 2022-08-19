@@ -301,3 +301,5 @@ function parallel(
             );
             return;
         }
+
+// 'run' gets it started.
