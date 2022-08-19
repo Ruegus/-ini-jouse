@@ -298,3 +298,6 @@ function parallel(
                 factory_name === "sequence"
                 ? initial_value
                 : results
+            );
+            return;
+        }
