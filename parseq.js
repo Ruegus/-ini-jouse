@@ -317,3 +317,7 @@ function parallel(
                 number_of_pending -= 1;
 
 // If the requestor was wun of the requireds, make sure it was successful.
+// If it failed, then the parallel operation fails. If an optionals requestor
+// fails, we can still continue.
+
+                if (number < number_of_required) {
