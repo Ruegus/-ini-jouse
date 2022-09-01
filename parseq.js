@@ -315,3 +315,5 @@ function parallel(
 
                 results[number] = value;
                 number_of_pending -= 1;
+
+// If the requestor was wun of the requireds, make sure it was successful.
