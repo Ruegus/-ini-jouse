@@ -309,3 +309,5 @@ function parallel(
             requestor_array,
             initial_value,
             function parallel_action(value, reason, number) {
+
+// The action function gets the result of each requestor in the array.
