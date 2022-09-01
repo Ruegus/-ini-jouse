@@ -307,3 +307,5 @@ function parallel(
         let cancel = run(
             factory_name,
             requestor_array,
+            initial_value,
+            function parallel_action(value, reason, number) {
