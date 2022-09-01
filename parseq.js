@@ -312,3 +312,6 @@ function parallel(
 
 // The action function gets the result of each requestor in the array.
 // 'parallel' wants to return an array of all of the values it sees.
+
+                results[number] = value;
+                number_of_pending -= 1;
