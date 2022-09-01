@@ -321,3 +321,5 @@ function parallel(
 // fails, we can still continue.
 
                 if (number < number_of_required) {
+                    number_of_pending_required -= 1;
+                    if (value === undefined) {
