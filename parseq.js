@@ -331,3 +331,6 @@ function parallel(
                 }
 
 // If all have been processed, or if the requireds have all succeeded
+// and we do not have a 'time_option', then we are done.
+
+                if (
