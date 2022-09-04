@@ -340,3 +340,4 @@ function parallel(
                         && number_of_pending_required < 1
                     )
                 ) {
+                    cancel(make_reason(factory_name, "Optional."));
