@@ -336,3 +336,5 @@ function parallel(
                 if (
                     number_of_pending < 1
                     || (
+                        time_option === undefined
+                        && number_of_pending_required < 1
