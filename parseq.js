@@ -328,3 +328,4 @@ function parallel(
                         callback = undefined;
                         return;
                     }
+                }
