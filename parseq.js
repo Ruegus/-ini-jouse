@@ -339,3 +339,4 @@ function parallel(
                         time_option === undefined
                         && number_of_pending_required < 1
                     )
+                ) {
