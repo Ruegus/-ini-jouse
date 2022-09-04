@@ -329,3 +329,5 @@ function parallel(
                         return;
                     }
                 }
+
+// If all have been processed, or if the requireds have all succeeded
