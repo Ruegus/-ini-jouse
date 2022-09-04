@@ -325,3 +325,6 @@ function parallel(
                     if (value === undefined) {
                         cancel(reason);
                         callback(undefined, reason);
+                        callback = undefined;
+                        return;
+                    }
