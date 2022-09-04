@@ -334,3 +334,5 @@ function parallel(
 // and we do not have a 'time_option', then we are done.
 
                 if (
+                    number_of_pending < 1
+                    || (
