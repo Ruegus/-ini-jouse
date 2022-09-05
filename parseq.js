@@ -341,3 +341,4 @@ function parallel(
                     )
                 ) {
                     cancel(make_reason(factory_name, "Optional."));
+                    callback(
