@@ -349,3 +349,4 @@ function parallel(
                     callback = undefined;
                 }
             },
+            function parallel_timeout() {
