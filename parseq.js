@@ -345,3 +345,4 @@ function parallel(
                         factory_name === "sequence"
                         ? results.pop()
                         : results
+                    );
