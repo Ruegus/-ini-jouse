@@ -343,3 +343,5 @@ function parallel(
                     cancel(make_reason(factory_name, "Optional."));
                     callback(
                         factory_name === "sequence"
+                        ? results.pop()
+                        : results
