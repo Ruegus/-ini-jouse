@@ -350,3 +350,7 @@ function parallel(
                 }
             },
             function parallel_timeout() {
+
+// When the timer fires, work stops unless we were under the 'false'
+// time option. The 'false' time option puts no time limits on the
+// requireds, allowing the optionals to run until the requireds finish
