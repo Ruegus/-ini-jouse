@@ -347,3 +347,4 @@ function parallel(
                         : results
                     );
                     callback = undefined;
+                }
