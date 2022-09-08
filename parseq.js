@@ -346,3 +346,4 @@ function parallel(
                         ? results.pop()
                         : results
                     );
+                    callback = undefined;
