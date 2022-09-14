@@ -358,3 +358,4 @@ function parallel(
 
                 const reason = make_reason(
                     factory_name,
+                    "Timeout.",
