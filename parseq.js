@@ -359,3 +359,6 @@ function parallel(
                 const reason = make_reason(
                     factory_name,
                     "Timeout.",
+                    time_limit
+                );
+                if (time_option === false) {
