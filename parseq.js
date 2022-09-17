@@ -362,3 +362,6 @@ function parallel(
                     time_limit
                 );
                 if (time_option === false) {
+                    time_option = undefined;
+                    if (number_of_pending_required < 1) {
+                        cancel(reason);
