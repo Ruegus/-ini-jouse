@@ -367,3 +367,6 @@ function parallel(
                         cancel(reason);
                         callback(results);
                     }
+                } else {
+
+// Time has expired. If all of the requireds were successful,
