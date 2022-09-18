@@ -370,3 +370,4 @@ function parallel(
                 } else {
 
 // Time has expired. If all of the requireds were successful,
+// then the parallel operation is successful.
