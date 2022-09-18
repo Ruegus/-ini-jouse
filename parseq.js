@@ -365,3 +365,5 @@ function parallel(
                     time_option = undefined;
                     if (number_of_pending_required < 1) {
                         cancel(reason);
+                        callback(results);
+                    }
