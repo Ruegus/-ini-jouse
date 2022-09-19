@@ -371,3 +371,5 @@ function parallel(
 
 // Time has expired. If all of the requireds were successful,
 // then the parallel operation is successful.
+
+                    cancel(reason);
