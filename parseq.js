@@ -373,3 +373,4 @@ function parallel(
 // then the parallel operation is successful.
 
                     cancel(reason);
+                    if (number_of_pending_required < 1) {
