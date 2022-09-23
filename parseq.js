@@ -374,3 +374,4 @@ function parallel(
 
                     cancel(reason);
                     if (number_of_pending_required < 1) {
+                        callback(results);
