@@ -381,3 +381,5 @@ function parallel(
                     callback = undefined;
                 }
             },
+            time_limit,
+            throttle
