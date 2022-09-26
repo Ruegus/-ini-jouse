@@ -378,3 +378,5 @@ function parallel(
                     } else {
                         callback(undefined, reason);
                     }
+                    callback = undefined;
+                }
