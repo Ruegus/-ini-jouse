@@ -383,3 +383,5 @@ function parallel(
             },
             time_limit,
             throttle
+        );
+        return cancel;
