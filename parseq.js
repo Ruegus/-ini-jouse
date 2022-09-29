@@ -385,3 +385,5 @@ function parallel(
             throttle
         );
         return cancel;
+    };
+}
