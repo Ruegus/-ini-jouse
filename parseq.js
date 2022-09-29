@@ -387,3 +387,5 @@ function parallel(
         return cancel;
     };
 }
+
+function parallel_object(
