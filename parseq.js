@@ -389,3 +389,4 @@ function parallel(
 }
 
 function parallel_object(
+    required_object,
