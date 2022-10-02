@@ -390,3 +390,5 @@ function parallel(
 
 function parallel_object(
     required_object,
+    optional_object,
+    time_limit,
