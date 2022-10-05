@@ -397,3 +397,4 @@ function parallel_object(
 ) {
 
 // 'parallel_object' is similar to 'parallel' except that it takes and
+// produces objects of requestors instead of arrays of requestors. This
