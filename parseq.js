@@ -395,3 +395,5 @@ function parallel_object(
     time_option,
     throttle
 ) {
+
+// 'parallel_object' is similar to 'parallel' except that it takes and
