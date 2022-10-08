@@ -400,3 +400,6 @@ function parallel_object(
 // produces objects of requestors instead of arrays of requestors. This
 // factory converts the objects to arrays, and the requestor it returns
 // turns them back again. It lets 'parallel' do most of the work.
+
+    const names = [];
+    let required_array = [];
