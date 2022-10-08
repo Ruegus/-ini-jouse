@@ -399,3 +399,4 @@ function parallel_object(
 // 'parallel_object' is similar to 'parallel' except that it takes and
 // produces objects of requestors instead of arrays of requestors. This
 // factory converts the objects to arrays, and the requestor it returns
+// turns them back again. It lets 'parallel' do most of the work.
