@@ -403,3 +403,4 @@ function parallel_object(
 
     const names = [];
     let required_array = [];
+    let optional_array = [];
