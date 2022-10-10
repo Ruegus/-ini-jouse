@@ -406,3 +406,4 @@ function parallel_object(
     let optional_array = [];
 
 // Extract the names and requestors from 'required_object'.
+// We only collect functions with an arity of 1 or 2.
