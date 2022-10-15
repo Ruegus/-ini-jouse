@@ -412,3 +412,4 @@ function parallel_object(
         if (typeof required_object !== "object") {
             throw make_reason(
                 "parallel_object",
+                "Type mismatch.",
