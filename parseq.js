@@ -409,3 +409,4 @@ function parallel_object(
 // We only collect functions with an arity of 1 or 2.
 
     if (required_object) {
+        if (typeof required_object !== "object") {
