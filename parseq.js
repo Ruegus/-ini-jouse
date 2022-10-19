@@ -416,3 +416,5 @@ function parallel_object(
                 required_object
             );
         }
+        Object.keys(required_object).forEach(function (name) {
+            let requestor = required_object[name];
