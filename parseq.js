@@ -421,3 +421,6 @@ function parallel_object(
             if (
                 typeof requestor === "function"
                 && (requestor.length === 1 || requestor.length === 2)
+            ) {
+                names.push(name);
+                required_array.push(requestor);
