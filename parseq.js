@@ -424,3 +424,4 @@ function parallel_object(
             ) {
                 names.push(name);
                 required_array.push(requestor);
+            }
