@@ -430,3 +430,5 @@ function parallel_object(
 
 // Extract the names and requestors from 'optional_object'.
 // Look for duplicate keys.
+
+    if (optional_object) {
