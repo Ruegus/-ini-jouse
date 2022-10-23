@@ -432,3 +432,4 @@ function parallel_object(
 // Look for duplicate keys.
 
     if (optional_object) {
+        if (typeof optional_object !== "object") {
