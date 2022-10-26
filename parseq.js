@@ -439,3 +439,5 @@ function parallel_object(
                 optional_object
             );
         }
+        Object.keys(optional_object).forEach(function (name) {
+            let requestor = optional_object[name];
