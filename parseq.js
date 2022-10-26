@@ -438,3 +438,4 @@ function parallel_object(
                 "Type mismatch.",
                 optional_object
             );
+        }
