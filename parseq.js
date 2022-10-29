@@ -441,3 +441,4 @@ function parallel_object(
         }
         Object.keys(optional_object).forEach(function (name) {
             let requestor = optional_object[name];
+            if (
