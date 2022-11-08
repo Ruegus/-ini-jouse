@@ -445,3 +445,4 @@ function parallel_object(
                 typeof requestor === "function"
                 && (requestor.length === 1 || requestor.length === 2)
             ) {
+                if (required_object && required_object[name] !== undefined) {
