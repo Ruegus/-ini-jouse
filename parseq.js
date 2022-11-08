@@ -443,3 +443,5 @@ function parallel_object(
             let requestor = optional_object[name];
             if (
                 typeof requestor === "function"
+                && (requestor.length === 1 || requestor.length === 2)
+            ) {
