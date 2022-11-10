@@ -447,3 +447,4 @@ function parallel_object(
             ) {
                 if (required_object && required_object[name] !== undefined) {
                     throw make_reason(
+                        "parallel_object",
