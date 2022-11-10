@@ -446,3 +446,4 @@ function parallel_object(
                 && (requestor.length === 1 || requestor.length === 2)
             ) {
                 if (required_object && required_object[name] !== undefined) {
+                    throw make_reason(
