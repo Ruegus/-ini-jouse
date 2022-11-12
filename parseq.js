@@ -453,3 +453,4 @@ function parallel_object(
                     );
                 }
                 names.push(name);
+                optional_array.push(requestor);
