@@ -452,3 +452,4 @@ function parallel_object(
                         name
                     );
                 }
+                names.push(name);
