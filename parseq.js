@@ -449,3 +449,6 @@ function parallel_object(
                     throw make_reason(
                         "parallel_object",
                         "Duplicate name.",
+                        name
+                    );
+                }
