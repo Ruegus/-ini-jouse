@@ -456,3 +456,6 @@ function parallel_object(
                 optional_array.push(requestor);
             }
         });
+    }
+
+// Call 'parallel' to get a requestor.
