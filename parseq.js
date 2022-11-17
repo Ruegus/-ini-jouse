@@ -459,3 +459,5 @@ function parallel_object(
     }
 
 // Call 'parallel' to get a requestor.
+
+    const parallel_requestor = parallel(
