@@ -463,3 +463,4 @@ function parallel_object(
     const parallel_requestor = parallel(
         required_array,
         optional_array,
+        time_limit,
