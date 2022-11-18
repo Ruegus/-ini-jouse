@@ -464,3 +464,4 @@ function parallel_object(
         required_array,
         optional_array,
         time_limit,
+        time_option,
