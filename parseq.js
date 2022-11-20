@@ -465,3 +465,5 @@ function parallel_object(
         optional_array,
         time_limit,
         time_option,
+        throttle,
+        "parallel_object"
