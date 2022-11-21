@@ -468,3 +468,5 @@ function parallel_object(
         throttle,
         "parallel_object"
     );
+
+// Return the parallel object requestor.
