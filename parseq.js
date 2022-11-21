@@ -467,3 +467,4 @@ function parallel_object(
         time_option,
         throttle,
         "parallel_object"
+    );
