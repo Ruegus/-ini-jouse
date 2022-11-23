@@ -470,3 +470,5 @@ function parallel_object(
     );
 
 // Return the parallel object requestor.
+
+    return function parallel_object_requestor(callback, initial_value) {
