@@ -476,3 +476,5 @@ function parallel_object(
 // When our requestor is called, we return the result of our parallel requestor.
 
         return parallel_requestor(
+
+// We pass our callback to the parallel requestor,
