@@ -479,3 +479,6 @@ function parallel_object(
 
 // We pass our callback to the parallel requestor,
 // converting its value into an object.
+
+            function parallel_object_callback(value, reason) {
+                if (value === undefined) {
