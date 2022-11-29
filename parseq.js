@@ -478,3 +478,4 @@ function parallel_object(
         return parallel_requestor(
 
 // We pass our callback to the parallel requestor,
+// converting its value into an object.
