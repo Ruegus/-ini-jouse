@@ -483,3 +483,4 @@ function parallel_object(
             function parallel_object_callback(value, reason) {
                 if (value === undefined) {
                     return callback(undefined, reason);
+                }
