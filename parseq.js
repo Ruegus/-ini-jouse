@@ -484,3 +484,4 @@ function parallel_object(
                 if (value === undefined) {
                     return callback(undefined, reason);
                 }
+                const object = Object.create(null);
