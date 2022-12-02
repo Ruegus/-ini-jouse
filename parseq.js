@@ -485,3 +485,4 @@ function parallel_object(
                     return callback(undefined, reason);
                 }
                 const object = Object.create(null);
+                names.forEach(function (name, index) {
