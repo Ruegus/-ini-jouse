@@ -486,3 +486,5 @@ function parallel_object(
                 }
                 const object = Object.create(null);
                 names.forEach(function (name, index) {
+                    object[name] = value[index];
+                });
