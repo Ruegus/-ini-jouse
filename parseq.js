@@ -488,3 +488,5 @@ function parallel_object(
                 names.forEach(function (name, index) {
                     object[name] = value[index];
                 });
+                return callback(object);
+            },
