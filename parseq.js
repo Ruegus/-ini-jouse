@@ -491,3 +491,4 @@ function parallel_object(
                 return callback(object);
             },
             initial_value
+        );
