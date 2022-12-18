@@ -496,3 +496,5 @@ function parallel_object(
 }
 
 function race(requestor_array, time_limit, throttle) {
+
+// The 'race' factory returns a requestor that starts all of the
