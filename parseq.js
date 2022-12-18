@@ -494,3 +494,5 @@ function parallel_object(
         );
     };
 }
+
+function race(requestor_array, time_limit, throttle) {
