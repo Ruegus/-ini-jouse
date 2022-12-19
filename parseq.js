@@ -501,3 +501,5 @@ function race(requestor_array, time_limit, throttle) {
 // requestors in 'requestor_array' at wunce. The first success wins.
 
     const factory_name = (
+        throttle === 1
+        ? "fallback"
