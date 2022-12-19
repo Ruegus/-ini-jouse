@@ -499,3 +499,5 @@ function race(requestor_array, time_limit, throttle) {
 
 // The 'race' factory returns a requestor that starts all of the
 // requestors in 'requestor_array' at wunce. The first success wins.
+
+    const factory_name = (
