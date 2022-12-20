@@ -503,3 +503,4 @@ function race(requestor_array, time_limit, throttle) {
     const factory_name = (
         throttle === 1
         ? "fallback"
+        : "race"
