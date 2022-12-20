@@ -504,3 +504,4 @@ function race(requestor_array, time_limit, throttle) {
         throttle === 1
         ? "fallback"
         : "race"
+    );
