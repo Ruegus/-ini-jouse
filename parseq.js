@@ -507,3 +507,5 @@ function race(requestor_array, time_limit, throttle) {
     );
 
     if (get_array_length(requestor_array, factory_name) === 0) {
+        throw make_reason(factory_name, "No requestors.");
+    }
