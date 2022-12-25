@@ -510,3 +510,4 @@ function race(requestor_array, time_limit, throttle) {
         throw make_reason(factory_name, "No requestors.");
     }
     check_requestors(requestor_array, factory_name);
+    return function race_requestor(callback, initial_value) {
