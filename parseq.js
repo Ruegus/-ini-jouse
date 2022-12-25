@@ -513,3 +513,4 @@ function race(requestor_array, time_limit, throttle) {
     return function race_requestor(callback, initial_value) {
         check_callback(callback, factory_name);
         let number_of_pending = requestor_array.length;
+        let cancel = run(
