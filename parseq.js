@@ -515,3 +515,4 @@ function race(requestor_array, time_limit, throttle) {
         let number_of_pending = requestor_array.length;
         let cancel = run(
             factory_name,
+            requestor_array,
