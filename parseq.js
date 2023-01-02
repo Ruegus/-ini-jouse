@@ -516,3 +516,5 @@ function race(requestor_array, time_limit, throttle) {
         let cancel = run(
             factory_name,
             requestor_array,
+            initial_value,
+            function race_action(value, reason, number) {
