@@ -518,3 +518,4 @@ function race(requestor_array, time_limit, throttle) {
             requestor_array,
             initial_value,
             function race_action(value, reason, number) {
+                number_of_pending -= 1;
