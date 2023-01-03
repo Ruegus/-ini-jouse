@@ -519,3 +519,6 @@ function race(requestor_array, time_limit, throttle) {
             initial_value,
             function race_action(value, reason, number) {
                 number_of_pending -= 1;
+                if (value !== undefined) {
+
+// We have a winner. Cancel the losers and pass the value to the 'callback'.
