@@ -526,3 +526,4 @@ function race(requestor_array, time_limit, throttle) {
                     cancel(make_reason(factory_name, "Loser.", number));
                     callback(value);
                     callback = undefined;
+                } else if (number_of_pending < 1) {
