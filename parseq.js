@@ -527,3 +527,5 @@ function race(requestor_array, time_limit, throttle) {
                     callback(value);
                     callback = undefined;
                 } else if (number_of_pending < 1) {
+
+// There was no winner. Signal a failure.
