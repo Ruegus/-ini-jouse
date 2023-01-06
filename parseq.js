@@ -531,3 +531,4 @@ function race(requestor_array, time_limit, throttle) {
 // There was no winner. Signal a failure.
 
                     cancel(reason);
+                    callback(undefined, reason);
