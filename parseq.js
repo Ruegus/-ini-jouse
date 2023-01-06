@@ -532,3 +532,4 @@ function race(requestor_array, time_limit, throttle) {
 
                     cancel(reason);
                     callback(undefined, reason);
+                    callback = undefined;
