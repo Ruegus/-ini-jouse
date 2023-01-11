@@ -536,3 +536,4 @@ function race(requestor_array, time_limit, throttle) {
                 }
             },
             function race_timeout() {
+                let reason = make_reason(
