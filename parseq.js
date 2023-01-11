@@ -535,3 +535,4 @@ function race(requestor_array, time_limit, throttle) {
                     callback = undefined;
                 }
             },
+            function race_timeout() {
