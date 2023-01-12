@@ -541,3 +541,4 @@ function race(requestor_array, time_limit, throttle) {
                     "Timeout.",
                     time_limit
                 );
+                cancel(reason);
