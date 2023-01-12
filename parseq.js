@@ -539,3 +539,5 @@ function race(requestor_array, time_limit, throttle) {
                 let reason = make_reason(
                     factory_name,
                     "Timeout.",
+                    time_limit
+                );
