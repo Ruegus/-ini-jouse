@@ -547,3 +547,5 @@ function race(requestor_array, time_limit, throttle) {
             },
             time_limit,
             throttle
+        );
+        return cancel;
