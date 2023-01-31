@@ -551,3 +551,5 @@ function race(requestor_array, time_limit, throttle) {
         return cancel;
     };
 }
+
+function fallback(requestor_array, time_limit) {
