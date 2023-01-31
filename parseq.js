@@ -553,3 +553,5 @@ function race(requestor_array, time_limit, throttle) {
 }
 
 function fallback(requestor_array, time_limit) {
+
+// The 'fallback' factory returns a requestor that tries each requestor
