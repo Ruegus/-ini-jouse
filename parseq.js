@@ -558,3 +558,4 @@ function fallback(requestor_array, time_limit) {
 // in 'requestor_array', wun at a time, until it finds a successful wun.
 
     return race(requestor_array, time_limit, 1);
+}
