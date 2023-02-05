@@ -559,3 +559,7 @@ function fallback(requestor_array, time_limit) {
 
     return race(requestor_array, time_limit, 1);
 }
+
+function sequence(requestor_array, time_limit) {
+
+// A sequence runs each requestor in order, passing results to the next,
