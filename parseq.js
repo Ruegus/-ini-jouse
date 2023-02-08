@@ -572,3 +572,4 @@ function sequence(requestor_array, time_limit) {
         undefined,
         1,
         "sequence"
+    );
