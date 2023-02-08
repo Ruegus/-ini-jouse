@@ -568,3 +568,5 @@ function sequence(requestor_array, time_limit) {
     return parallel(
         requestor_array,
         undefined,
+        time_limit,
+        undefined,
