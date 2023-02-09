@@ -575,3 +575,5 @@ function sequence(requestor_array, time_limit) {
     );
 
 }
+
+export default Object.freeze({
