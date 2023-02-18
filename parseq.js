@@ -582,3 +582,4 @@ export default Object.freeze({
     parallel_object,
     race,
     sequence
+});
